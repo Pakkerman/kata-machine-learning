@@ -1,0 +1,10 @@
+node_modules
+./ligma.config.js
+dist
+stats.json
+
+.DS_STORE
+.gitignore
+.vscode
+day2
+day3
