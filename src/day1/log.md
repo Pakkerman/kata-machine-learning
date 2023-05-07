@@ -306,7 +306,7 @@
 - [x] DFSGraphList          15m   ZERO DEATH
 - [x] DFSOnBST              2m    ZERO DEATH
 - [ ] DijkstralList       
-- [ ] LRU               
+- [x] LRU                   rewatched
 - [ ] Map               
 - [x] MinHeap               25m
 - [ ] Trie              
