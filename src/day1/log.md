@@ -271,7 +271,7 @@
 - [x] BTInOrder             1m    ZERO DEATH
 - [x] BTPostOrder           1m    ZERO DEATH
 - [x] BtPreOrder            1m    ZERO DEATH
-- [x] DFSGraphList          rewatched
+- [x] DFSGraphListb          rewatched
 - [x] DFSOnBST              1m    ZERO DEATH
 - [x] DijkstralList         rewatched
 - [ ] LRU
@@ -315,7 +315,37 @@
 - [x] TwoCrystalBalls       1m    ZERO DEATH
 
 
-
+-------------------
+# May 07 2023
+## Linked Lists
+- [x] ArrayList             10m   
+- [x] SinglyLinkedList      16m
+- [x] DoublyLinkedLists     11m   ZERO DEATH
+- [x] Queue                 3m    ZERO DEATH
+- [x] Stack                 4m    ZERO DEATH
+### Sort
+- [x] QuickSort             4m    ZERO DEATH
+- [x] BubbleSort            2m    ZERO DEATH
+#### Search
+- [x] LinearSearchLists     1m    ZERO DEATH
+- [x] BinarySearchList      3m    ZERO DEATH
+- [x] BFSGraphMatrix        5m    ZERO DEATH
+- [x] BTBFS                 3m    ZERO DEATH
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    ZERO DEATH
+- [x] BTInOrder             1m    ZERO DEATH
+- [x] BTPostOrder           1m    ZERO DEATH
+- [x] BtPreOrder            1m    ZERO DEATH
+- [ ] DFSGraphList        
+- [x] DFSOnBST              2m    ZERO DEATH
+- [ ] DijkstralList       
+- [ ] LRU               
+- [ ] Map               
+- [x] MinHeap               25m
+- [ ] Trie              
+#### Challenge
+- [x] MazeSolver            8m    ZERO DEATH
+- [x] TwoCrystalBalls       1m    ZERO DEATH
 # New
 ## Linked Lists
 - [ ] ArrayList             
