@@ -350,33 +350,66 @@
 
 # May 08 2023
 ## Linked Lists
-- [x] ArrayList             9m    ZD
-- [x] SinglyLinkedList      10m   ZD
+- [x] ArrayList             9m    ZERO DEATH
+- [x] SinglyLinkedList      10m   ZERO DEATH
 - [x] DoublyLinkedLists     10m
-- [x] Queue                 3m    ZD
-- [x] Stack                 3m    ZD
+- [x] Queue                 3m    ZERO DEATH
+- [x] Stack                 3m    ZERO DEATH
 ### Sort
-- [x] QuickSort             3m    ZD
+- [x] QuickSort             3m    ZERO DEATH
 - [x] BubbleSort            5m  
 #### Search
-- [x] LinearSearchLists     1m    ZD
-- [x] BinarySearchList      2m    ZD
-- [x] BTBFS                 1m    ZD
+- [x] LinearSearchLists     1m    ZERO DEATH
+- [x] BinarySearchList      2m    ZERO DEATH
+- [x] BTBFS                 1m    ZERO DEATH
 #### Tree Traversal
-- [x] CompareBinaryTrees    1m    ZD
-- [x] BTInOrder             1m    ZD
-- [x] BTPostOrder           1m    ZD
-- [x] BtPreOrder            1m    ZD
+- [x] CompareBinaryTrees    1m    ZERO DEATH
+- [x] BTInOrder             1m    ZERO DEATH
+- [x] BTPostOrder           1m    ZERO DEATH
+- [x] BtPreOrder            1m    ZERO DEATH
 - [x] BFSGraphMatrix        8m  
 - [x] DFSGraphList          13m
-- [x] DFSOnBST              2m    ZD
+- [x] DFSOnBST              2m    ZERO DEATH
 - [ ] DijkstralList       
 - [x] LRU                   19
 - [ ] Map               
 - [x] MinHeap               23m
 - [ ] Trie              
 #### Challenge
-- [x] MazeSolver            5m    ZD
+- [x] MazeSolver            5m    ZERO DEATH
+- [x] TwoCrystalBalls       2m    ZERO DEATH
+
+
+------------
+# May 09 2023
+## Linked Lists
+- [x] ArrayList             8m    
+- [x] SinglyLinkedList      10m   ZD
+- [x] DoublyLinkedLists     8m    ZD
+- [x] Queue                 2m    ZD
+- [x] Stack                 3m    ZD
+### Sort
+- [x] QuickSort             3m    ZD
+- [x] BubbleSort            2m    ZD
+#### Search
+- [x] LinearSearchLists     1m    ZD
+- [x] BinarySearchList      2m    ZD
+- [x] BTBFS                 2m    ZD
+#### Tree Traversal
+- [x] CompareBinaryTrees    2m    ZD
+- [x] BTInOrder             1m    ZD
+- [x] BTPostOrder           1m    ZD
+- [x] BtPreOrder            1m    ZD
+- [x] BFSGraphMatrix        ?
+- [x] DFSGraphList          ?     ZD
+- [x] DFSOnBST              2m    ZD
+- [x] DijkstralList         rewatched
+- [x] LRU                   15m   ZD ?!
+- [ ] Map                 
+- [x] MinHeap               25m 
+- [ ] Trie              
+#### Challenge
+- [x] MazeSolver            6m    ZD
 - [x] TwoCrystalBalls       2m    ZD
 
 
