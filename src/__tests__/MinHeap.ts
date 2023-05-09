@@ -14,6 +14,8 @@ test("min heap", function () {
     heap.insert(8)
     heap.insert(7)
 
+    console.log("isnert result >> [1, 4, 3, 7, 5, 69, 8, 420 ]", heap.data)
+
     expect(heap.length).toEqual(8)
     expect(heap.delete()).toEqual(1)
     expect(heap.delete()).toEqual(3)
