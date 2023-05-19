@@ -1,20 +1,19 @@
-// 35
 type Node<T> = {
     value: T
     next?: Node<T>
 }
+
 export default class SinglyLinkedList<T> {
     public length: number
     private head?: Node<T>
     private tail?: Node<T>
-
     constructor() {
         this.length = 0
         this.head = this.tail = undefined
     }
 
     prepend(item: T): void {
-        const node = this.createNode(item)
+        const node: Node<T> = { value: item }
         this.length++
         if (!this.head) {
             this.head = this.tail = node
@@ -28,7 +27,7 @@ export default class SinglyLinkedList<T> {
         if (idx === this.length - 1) return this.append(item)
         const curr = this.getNode(idx)
         if (!curr) return
-        const node = this.createNode(item)
+        const node: Node<T> = { value: item }
         this.length++
 
         node.next = curr.next
@@ -38,18 +37,19 @@ export default class SinglyLinkedList<T> {
         curr.value = item
     }
     append(item: T): void {
-        const node: Node<T> = this.createNode(item)
+        const node: Node<T> = { value: item }
         this.length++
         if (!this.tail) {
             this.head = this.tail = node
             return
         }
+
         this.tail.next = node
         this.tail = node
     }
     remove(item: T): T | undefined {
         let curr = this.head
-        for (let i = 0; curr && i < this.length; i++) {
+        for (let i = 0; i < this.length && curr; i++) {
             if (curr.value === item) return this.removeAt(i)
             curr = curr.next
         }
@@ -59,7 +59,7 @@ export default class SinglyLinkedList<T> {
         return this.getNode(idx)?.value
     }
     removeAt(idx: number): T | undefined {
-        let curr = this.getNode(idx)
+        const curr = this.getNode(idx)
         if (!curr) return undefined
         const out = curr.value
         this.length--
@@ -68,9 +68,9 @@ export default class SinglyLinkedList<T> {
             this.head = this.tail = undefined
             return out
         }
+
         if (curr === this.head) this.head = this.head.next
         if (curr === this.tail) this.tail = this.getNode(idx - 1)
-
         if (curr.next === this.tail) this.tail = curr
         if (curr.next) {
             curr.value = curr.next.value
@@ -79,15 +79,10 @@ export default class SinglyLinkedList<T> {
         return out
     }
 
-    private createNode<T>(value: T): Node<T> {
-        return { value }
-    }
-
     private getNode(idx: number): Node<T> | undefined {
         if (idx < 0 || this.length <= idx) return undefined
         let curr = this.head
-        if (!curr) return
-        for (let i = 0; curr && i < idx; i++) {
+        for (let i = 0; i < idx && curr; i++) {
             curr = curr.next
         }
         return curr

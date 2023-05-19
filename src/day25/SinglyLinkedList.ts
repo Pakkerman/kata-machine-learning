@@ -54,6 +54,7 @@ export default class SinglyLinkedList<T> {
         let curr = this.head
         for (let i = 0; i < this.length && curr; i++) {
             if (curr.value === item) return this.removeAt(i)
+            curr = curr.next
         }
         return undefined
     }

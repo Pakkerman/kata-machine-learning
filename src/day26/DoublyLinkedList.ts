@@ -1,8 +1,9 @@
-// 35
 type Node<T> = {
     value: T
     next?: Node<T>
+    prev?: Node<T>
 }
+
 export default class SinglyLinkedList<T> {
     public length: number
     private head?: Node<T>
@@ -21,6 +22,7 @@ export default class SinglyLinkedList<T> {
             return
         }
         node.next = this.head
+        this.head.prev = node
         this.head = node
     }
     insertAt(item: T, idx: number): void {
@@ -30,26 +32,25 @@ export default class SinglyLinkedList<T> {
         if (!curr) return
         const node = this.createNode(item)
         this.length++
-
-        node.next = curr.next
-        curr.next = node
-
-        node.value = curr.value
-        curr.value = item
+        node.next = curr
+        node.prev = curr.prev
+        curr.prev = node
+        if (node.prev) node.prev.next = node
     }
     append(item: T): void {
-        const node: Node<T> = this.createNode(item)
+        const node = this.createNode(item)
         this.length++
         if (!this.tail) {
             this.head = this.tail = node
             return
         }
+        node.prev = this.tail
         this.tail.next = node
         this.tail = node
     }
     remove(item: T): T | undefined {
         let curr = this.head
-        for (let i = 0; curr && i < this.length; i++) {
+        for (let i = 0; i < this.length && curr; i++) {
             if (curr.value === item) return this.removeAt(i)
             curr = curr.next
         }
@@ -59,35 +60,31 @@ export default class SinglyLinkedList<T> {
         return this.getNode(idx)?.value
     }
     removeAt(idx: number): T | undefined {
-        let curr = this.getNode(idx)
+        const curr = this.getNode(idx)
         if (!curr) return undefined
         const out = curr.value
         this.length--
-
         if (this.length === 0) {
             this.head = this.tail = undefined
             return out
         }
-        if (curr === this.head) this.head = this.head.next
-        if (curr === this.tail) this.tail = this.getNode(idx - 1)
 
-        if (curr.next === this.tail) this.tail = curr
-        if (curr.next) {
-            curr.value = curr.next.value
-            curr.next = curr.next.next
-        }
+        if (curr.next) curr.next.prev = curr.prev
+        if (curr.prev) curr.prev.next = curr.next
+        if (curr === this.head) this.head = this.head.next
+        if (curr === this.tail) this.tail = this.tail.prev
+        curr.next = curr.prev = undefined
         return out
     }
 
-    private createNode<T>(value: T): Node<T> {
+    private createNode(value: T): Node<T> {
         return { value }
     }
 
     private getNode(idx: number): Node<T> | undefined {
         if (idx < 0 || this.length <= idx) return undefined
         let curr = this.head
-        if (!curr) return
-        for (let i = 0; curr && i < idx; i++) {
+        for (let i = 0; i < idx && curr; i++) {
             curr = curr.next
         }
         return curr
