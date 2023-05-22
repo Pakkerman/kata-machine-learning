@@ -793,6 +793,35 @@ total  -------------------  89m   XX ZERO DEATHS
 --------------------------------------
 # New
 ## Linked Lists
+- [x] ArrayList             12m   
+- [x] SinglyLinkedList      10m   ZERO DEATH
+- [x] DoublyLinkedLists     ||    ZERO DEATH
+- [x] Queue                 3m    ZERO DEATH
+- [x] Stack                 2m    ZERO DEATH
+### Sort
+- [x] QuickSort             3m    ZERO DEATH
+- [x] BubbleSort            1m    ZERO DEATH
+#### Search
+- [x] BinarySearchList      2m    ZERO DEATH
+- [x] BTBFS                 2m    ZERO DEATH
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    ZERO DEATH
+- [x] BFSGraphMatrix        5m    ZERO DEATH
+- [x] DFSGraphList          4m    ZERO DEATH
+- [x] DFSOnBST              2m    ZERO DEATH
+- [x] DijkstralList         8m    ZERO DEATH
+- [x] LRU                   10m   
+- [ ] Map                   
+- [x] MinHeap               7m    ZERO DEATH
+- [ ] Trie                  
+#### Challenge
+- [x] MazeSolver            5m    ZERO DEATH
+- [x] TwoCrystalBalls       1m    ZERO DEATH
+total  -------------------  78m   XX ZERO DEATHS
+
+--------------------------------------
+# New
+## Linked Lists
 - [ ] ArrayList             
 - [ ] SinglyLinkedList      
 - [ ] DoublyLinkedLists     
