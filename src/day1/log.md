@@ -670,7 +670,7 @@ total  -------------------  94m   18 / 23 ZERO DEATHS
 total  -------------------  83m   17 ZERO DEATHS
 
 --------------------------------------
-# New
+# May 18 2023
 ## Linked Lists
 - [x] ArrayList             7m    ZERO DEATH
 - [x] SinglyLinkedList      11m   ZERO DEATH
@@ -702,7 +702,7 @@ total  -------------------  83m   17 ZERO DEATHS
 total  -------------------  83m   XX ZERO DEATHS
 
 --------------------------------------
-# New
+# May 19 2023
 ## Linked Lists
 - [x] ArrayList             9m    ZERO DEATH
 - [x] SinglyLinkedList      20m   
@@ -730,7 +730,7 @@ total  -------------------  83m   XX ZERO DEATHS
 total  -------------------  87m   XX ZERO DEATHS
 
 --------------------------------------
-# New
+# May 20 2023
 ## Linked Lists
 - [x] ArrayList             6m    ZERO DEATH
 - [x] SinglyLinkedList      11m   ZERO DEATH
@@ -759,7 +759,7 @@ total  -------------------  87m   XX ZERO DEATHS
 total  -------------------  69m   XX ZERO DEATHS
 
 --------------------------------------
-# New
+# May 21 2023
 ## Linked Lists
 - [x] ArrayList             9m    
 - [x] SinglyLinkedList      14m
@@ -791,7 +791,7 @@ total  -------------------  69m   XX ZERO DEATHS
 total  -------------------  89m   XX ZERO DEATHS
 
 --------------------------------------
-# New
+# May 22 2023
 ## Linked Lists
 - [x] ArrayList             12m   
 - [x] SinglyLinkedList      10m   ZERO DEATH
@@ -820,6 +820,36 @@ total  -------------------  89m   XX ZERO DEATHS
 total  -------------------  78m   XX ZERO DEATHS
 
 --------------------------------------
+# May 23 2023
+## Linked Lists
+- [x] ArrayList             8m    Z
+- [x] SinglyLinkedList      12m   
+- [x] DoublyLinkedLists     ||    Z
+- [x] Queue                 2m    Z
+- [x] Stack                 2m    
+### Sort
+- [x] QuickSort             4m    Z
+- [x] MergeSort             4m    
+- [x] BubbleSort            1m    Z
+#### Search
+- [x] BinarySearchList      3m
+- [x] BTBFS                 1m    Z
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    z
+- [x] BFSGraphMatrix        5m    Z
+- [x] DFSGraphList          3m    Z
+- [x] DFSOnBST              2m    Z
+- [x] DijkstralList         8m    Z
+- [x] LRU                   10m   Z
+- [ ] Map                   
+- [x] MinHeap               8m    Z
+- [ ] Trie                  
+#### Challenge
+- [x] MazeSolver            6m    Z
+- [x] TwoCrystalBalls       1m    Z
+total  -------------------  81m   XX ZERO DEATHS
+
+--------------------------------------
 # New
 ## Linked Lists
 - [ ] ArrayList             
@@ -829,15 +859,13 @@ total  -------------------  78m   XX ZERO DEATHS
 - [ ] Stack                 
 ### Sort
 - [ ] QuickSort             
+- [ ] MergeSort             
 - [ ] BubbleSort            
 #### Search
 - [ ] BinarySearchList      
 - [ ] BTBFS                 
 #### Tree Traversal
 - [ ] CompareBinaryTrees    
-- [ ] BTInOrder             
-- [ ] BTPostOrder           
-- [ ] BtPreOrder            
 - [ ] BFSGraphMatrix         
 - [ ] DFSGraphList          
 - [ ] DFSOnBST              
