@@ -850,7 +850,32 @@ total  -------------------  78m   XX ZERO DEATHS
 total  -------------------  81m   XX ZERO DEATHS
 
 --------------------------------------
-# New
+# May 24 2023
+## Linked Lists
+- [x] ArrayList             7m    Z
+### Sort
+- [x] QuickSort             5m    Z
+- [x] MergeSort             5m    Z
+- [x] BubbleSort            1m    Z
+#### Search
+- [x] BinarySearchList      2m    Z
+- [x] BTBFS                 1m    Z
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        4m    Z
+- [x] DFSGraphList          4m    Z
+- [x] DFSOnBST              2m    Z
+- [x] DijkstralList         8m    Z
+- [x] LRU                   12m   Z
+- [ ] Map                   
+- [x] MinHeap               9m    Z
+- [ ] Trie                  
+#### Challenge
+- [x] MazeSolver            6m    Z
+total  -------------------  67m   XX ZERO DEATHS
+
+--------------------------------------
+# New Day
 ## Linked Lists
 - [ ] ArrayList             
 - [ ] SinglyLinkedList      
