@@ -114,7 +114,6 @@ module.exports = {
             },
         ],
     },
-
     RingBuffer: {
         generic: "<T>",
         type: "class",
@@ -142,7 +141,6 @@ module.exports = {
             },
         ],
     },
-
     ArrayList: {
         type: "class",
         generic: "<T>",
