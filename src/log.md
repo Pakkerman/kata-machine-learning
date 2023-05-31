@@ -986,7 +986,7 @@ total  -------------------  XXm   XX ZERO DEATHS
 total  -------------------  XXm   XX ZERO DEATHS
 
 --------------------------------------
-# New Day
+# May 29
 ## Linked Lists
 - [x] ArrayList             7m    Z
 - [x] SinglyLinkedList      10m   Z
@@ -1014,6 +1014,36 @@ total  -------------------  XXm   XX ZERO DEATHS
 - [x] MazeSolver            6m    Z
 - [x] TwoCrystalBalls       1m    Z
 total  -------------------  90m   XX ZERO DEATHS
+
+--------------------------------------
+# May 30 2023
+## Linked Lists
+- [x] ArrayList             7m    Z
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort
+- [x] QuickSort             5m    Z
+- [x] MergeSort             4m    Z
+- [x] BubbleSort            1m    Z
+#### Search
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 1m    Z
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        5m    
+- [x] DFSGraphList          4m    Z
+- [x] DFSOnBST              2m    
+- [x] DijkstralList         6m    Z
+- [x] LRU                   8m    Z
+- [ ] Map                   
+- [x] MinHeap               7m    Z
+- [ ] Trie                  
+#### Challenge
+- [x] MazeSolver            5m    Z
+- [x] TwoCrystalBalls       1m    Z
+total  -------------------  XXm   XX ZERO DEATHS
 
 --------------------------------------
 # New Day
@@ -1044,4 +1074,33 @@ total  -------------------  90m   XX ZERO DEATHS
 - [ ] MazeSolver            
 - [ ] TwoCrystalBalls       
 total  -------------------  XXm   XX ZERO DEATHS
-
+#
+--------------------------------------
+# New Day
+## Linked Lists
+- [ ] ArrayList             
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort
+- [ ] QuickSort             
+- [ ] MergeSort             
+- [ ] BubbleSort            
+#### Search
+- [ ] BinarySearchList      
+- [ ] BTBFS                 
+#### Tree Traversal
+- [ ] CompareBinaryTrees    
+- [ ] BFSGraphMatrix         
+- [ ] DFSGraphList          
+- [ ] DFSOnBST              
+- [ ] DijkstralList         
+- [ ] LRU                   
+- [ ] Map                   
+- [ ] MinHeap               
+- [ ] Trie                  
+#### Challenge
+- [ ] MazeSolver            
+- [ ] TwoCrystalBalls       
+total  -------------------  XXm   XX ZERO DEATHS
