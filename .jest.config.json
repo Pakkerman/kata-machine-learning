@@ -2,7 +2,7 @@
     "clearMocks": true,
     "moduleNameMapper": {
         "@code/(.*)": [
-            "<rootDir>/src/day39/$1"
+            "<rootDir>/src/day40/$1"
         ]
     },
     "preset": "ts-jest"
