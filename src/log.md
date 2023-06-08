@@ -1252,6 +1252,66 @@ total  -------------------  XXm   XX ZERO DEATHS
 total  -------------------  44m   XX ZERO DEATHS
 #
 --------------------------------------
+# Jun 07 2023
+## Linked Lists
+- [ ] ArrayList             
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort
+- [x] QuickSort             3m    Z
+- [x] MergeSort             2m    Z
+- [x] BubbleSort            1m    Z
+#### Search
+- [x] BinarySearchList      2m    Z
+- [x] BTBFS                 2m    Z
+#### Tree Traversal
+- [x] CompareBinaryTrees    2m    Z
+- [x] BFSGraphMatrix        3m    Z
+- [x] DFSGraphList          5m    Z
+- [x] DFSOnBST              1m    Z
+- [x] DijkstralList         11m   
+- [x] LRU                   12m   
+- [ ] Map                   
+- [ ] MinHeap               
+- [x] Trie                  still too long
+#### Challenge
+- [ ] MazeSolver            
+- [ ] TwoCrystalBalls       
+total  -------------------  44m   XX ZERO DEATHS
+#
+--------------------------------------
+# Jun 08 2023
+## Linked Lists
+- [x] ArrayList             12m   
+- [x] SinglyLinkedList      12m 
+- [x] DoublyLinkedLists     10m 
+- [x] Queue                 3m    Z
+- [x] Stack                 3m    Z
+### Sort
+- [x] QuickSort             5m    Z
+- [x] MergeSort             4m    Z
+- [x] BubbleSort            1m    Z
+#### Search
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 2m    Z
+#### Tree Traversal
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        4m    Z
+- [x] DFSGraphList          3m    
+- [x] DFSOnBST              2m    
+- [x] DijkstralList         11m 
+- [x] LRU                   12m   Z
+- [ ] Map                   
+- [x] MinHeap               7m    Z
+- [x] Trie                  1h    
+#### Challenge
+- [x] MazeSolver            5m    Z
+- [x] TwoCrystalBalls       1m    Z
+total  -------------------  160m   XX ZERO DEATHS
+#
+--------------------------------------
 # New Day
 ## Linked Lists
 - [ ] ArrayList             

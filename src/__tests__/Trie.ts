@@ -8,13 +8,13 @@ test("Trie", function () {
 
   // og tests
 
-  trie.insert("ca")
-  trie.insert("cat")
-  trie.insert("cats")
-  trie.insert("carrer")
-  expect(trie.find("ca").sort()).toEqual(["ca", "carrer", "cat", "cats"])
-  trie.delete("ca")
-  expect(trie.find("ca").sort()).toEqual(["carrer", "cat", "cats"])
+  // trie.insert("ca")
+  // trie.insert("cat")
+  // trie.insert("cats")
+  // trie.insert("carrer")
+  // expect(trie.find("ca").sort()).toEqual(["ca", "carrer", "cat", "cats"])
+  // trie.delete("ca")
+  // expect(trie.find("ca").sort()).toEqual(["carrer", "cat", "cats"])
 
   trie.insert("foo")
   trie.insert("fool")

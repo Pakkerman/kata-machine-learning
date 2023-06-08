@@ -1,20 +1,3 @@
-function hasUnvisited(seen: boolean[], dists: number[]): boolean {
-  return seen.some((s, i) => !s && dists[i] < Infinity)
-}
-
-function getLowestUnvisited(seen: boolean[], dists: number[]): number {
-  let idx = -1
-  let lowest = Infinity
-  for (let i = 0; i < seen.length; i++) {
-    if (seen[i]) continue
-    if (dists[i] < lowest) {
-      lowest = dists[i]
-      idx = i
-    }
-  }
-  return idx
-}
-
 export default function dijkstra_list(
   source: number,
   sink: number,
@@ -25,11 +8,11 @@ export default function dijkstra_list(
   const dists: number[] = new Array(arr.length).fill(Infinity)
   dists[source] = 0
 
-  while (hasUnvisited(seen, dists)) {
+  while (hasUnvisted(seen, dists)) {
     const curr = getLowestUnvisited(seen, dists)
+    const list = arr[curr]
     seen[curr] = true
 
-    const list = arr[curr]
     for (let i = 0; i < list.length; i++) {
       const { to: edge, weight } = list[i]
       if (seen[edge]) continue
@@ -40,7 +23,6 @@ export default function dijkstra_list(
       }
     }
   }
-
   const out: number[] = []
   let curr = sink
   while (prev[curr] !== -1) {
@@ -49,4 +31,22 @@ export default function dijkstra_list(
   }
   out.push(source)
   return out.reverse()
+}
+
+function hasUnvisted(seen: boolean[], dists: number[]): boolean {
+  return seen.some((seen, idx) => !seen && dists[idx] < Infinity)
+}
+
+function getLowestUnvisited(seen: boolean[], dists: number[]): number {
+  let lowest = Infinity
+  let idx = -1
+
+  for (let i = 0; i < seen.length; i++) {
+    if (seen[i]) continue
+    if (dists[i] < lowest) {
+      lowest = dists[i]
+      idx = i
+    }
+  }
+  return idx
 }

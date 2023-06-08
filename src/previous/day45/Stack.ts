@@ -27,6 +27,7 @@ export default class Stack<T> {
   pop(): T | undefined {
     if (!this.tail) return undefined
     const out = this.tail.item
+    this.length--
 
     if (this.length === 0) {
       this.head = this.tail = undefined
