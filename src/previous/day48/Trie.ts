@@ -88,7 +88,6 @@ export default class Trie {
     }
 
     this.getWords(curr, partial, out)
-    console.log(out)
     return out
   }
 
