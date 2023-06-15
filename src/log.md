@@ -1466,6 +1466,70 @@ total  -------------------  XXm   XX ZERO DEATHS
 - [x] TwoCrystalBalls       1m    Z
 total  -------------------  148m   XX ZERO DEATHS
 --------------------------------------
+# Jun 14 2023
+## Lists                  
+- [x] ArrayList             6m    Z
+- [x] Ring Buffer           10m
+## Linke Lists              
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [ ] Queue                 
+- [ ] Stack                 
+### Sort                    
+- [x] QuickSort             3m    Z
+- [x] MergeSort             3m    Z
+- [x] InsertionSort         2m    Z
+- [x] BubbleSort            1m    Z
+#### Search                 
+- [x] BinarySearchList      2m    
+- [x] BTBFS                 1m    Z
+#### Tree Traversal         
+- [x] CompareBinaryTrees    1m    Z
+- [ ] BFSGraphMatrix         
+- [ ] DFSGraphList          
+- [ ] DFSOnBST              
+- [ ] DijkstralList         
+- [ ] LRU                   
+- [ ] Map                   
+- [ ] MinHeap               
+- [x] Trie                  21m   
+#### Challenge            
+- [ ] MazeSolver            
+- [ ] TwoCrystalBalls       
+total  -------------------  50m   XX ZERO DEATHS
+--------------------------------------
+# Jun 15 2023
+## Lists                  
+- [x] ArrayList             6m    Z
+- [x] Ring Buffer           8m   
+## Linke Lists              
+- [x] SinglyLinkedList      3m    Z
+- [x] DoublyLinkedLists     9m    Z
+- [x] Queue                 4m    Z
+- [x] Stack                 2m    Z
+### Sort                    
+- [x] QuickSort             3m    Z
+- [x] MergeSort             4m    Z
+- [x] InsertionSort         2m    Z
+- [x] BubbleSort            1m    Z
+#### Search                 
+- [x] BinarySearchList      4m    Z
+- [x] BTBFS                 2m    Z
+#### Tree Traversal         
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        5m    Z
+- [x] DFSGraphList          8m    Z
+- [x] DFSOnBST              2m    Z
+- [x] DijkstralList         6m    Z
+- [x] LRU                   9m    Z
+- [x] Map                   17    Z
+- [x] MinHeap               15m   Z
+- [x] Trie                  11m   Z
+#### Challenge            
+- [x] MazeSolver            4m    Z
+- [x] TwoCrystalBalls       2m    Z
+total  -------------------  128m   XX ZERO DEATHS
+--------------------------------------
 # New Day
 ## Lists                  
 - [ ] ArrayList             
