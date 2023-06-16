@@ -1520,15 +1520,47 @@ total  -------------------  50m   XX ZERO DEATHS
 - [x] BFSGraphMatrix        5m    Z
 - [x] DFSGraphList          8m    Z
 - [x] DFSOnBST              2m    Z
-- [x] DijkstralList         6m    Z
+- [x] DijkstralList         6m    Z   
 - [x] LRU                   9m    Z
 - [x] Map                   17    Z
-- [x] MinHeap               15m   Z
+- [x] MinHeap               15m   Z    using arraylist
 - [x] Trie                  11m   Z
 #### Challenge            
 - [x] MazeSolver            4m    Z
 - [x] TwoCrystalBalls       2m    Z
 total  -------------------  128m   XX ZERO DEATHS
+--------------------------------------
+# Jun 16 2023
+## Lists                  
+- [x] ArrayList             15m   
+- [x] Ring Buffer           11m   
+## Linke Lists              
+- [x] SinglyLinkedList      18m   
+- [x] DoublyLinkedLists     4m    Z
+- [x] Queue                 2m    Z
+- [x] Stack                 3m    Z
+### Sort                    
+- [x] QuickSort             3m    Z
+- [x] MergeSort             4m    Z
+- [x] InsertionSort         2m    Z
+- [x] BubbleSort            1m    
+#### Search                 
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 1m    Z
+#### Tree Traversal         
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        5m    Z
+- [x] DFSGraphList          5m    Z
+- [x] DFSOnBST              2m    
+- [x] DijkstralList         12m    
+- [x] LRU                   10m   
+- [x] Map                   33m   Z
+- [x] MinHeap               7m    Z
+- [x] Trie                  12m   Z
+#### Challenge            
+- [x] MazeSolver            5m    Z
+- [x] TwoCrystalBalls       2m    Z
+total  -------------------  133m   XX ZERO DEATHS
 --------------------------------------
 # New Day
 ## Lists                  
