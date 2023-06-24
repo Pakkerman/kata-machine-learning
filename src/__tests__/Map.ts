@@ -20,4 +20,8 @@ test("Map", function () {
   map.delete("bar")
   expect(map.size()).toEqual(3)
   expect(map.get("bar")).toEqual(undefined)
+
+  map.set("61", 69)
+  map.set(11, 69)
+  map.set(11, 69)
 })
