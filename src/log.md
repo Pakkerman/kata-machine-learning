@@ -1693,6 +1693,43 @@ total  -------------------  115m  17/23 ZERO DEATHS
 --------------------------------------
 
 --------------------------------------
+# July 03 2023
+## Lists------------------------------
+- [ ] ArrayList             
+- [x] Ring Buffer           6m    Z
+## Linke Lists------------------------
+- [ ] SinglyLinkedList      
+- [ ] DoublyLinkedLists     
+- [x] Queue                 3m    Z
+- [x] Stack                 3m    Z
+### Sort------------------------------
+- [x] QuickSort             2m    Z
+- [x] MergeSort             4m    
+- [x] InsertionSort         1m    Z
+- [x] BubbleSort            1m    Z
+#### Search---------------------------
+- [x] BinarySearchList      1m    Z
+- [x] BTBFS                 2m    Z
+#### Tree Traversal-------------------
+- [x] CompareBinaryTrees    1m    Z
+- [x] BFSGraphMatrix        4m    
+- [x] DFSGraphList          4m    Z
+- [x] DFSOnBST              1m    Z
+- [x] DijkstralList         18m   Z
+      - Using a minheap, it was simpler than expected. 
+- [x] LRU                   5m    Z
+- [x] Map                   40m   
+- [x] MinHeap               16m   
+- [x] Trie                  20m   
+      - Using a object to keep track of children, instead of linked list
+#### Challenge-----------------------
+- [x] MazeSolver            6m    
+- [x] TwoCrystalBalls       1m    Z
+total  -------------------  139m  14/20 ZERO DEATHS
+--------------------------------------
+
+
+--------------------------------------
 # New Day
 ## Lists------------------------------
 - [ ] ArrayList             
